@@ -39,5 +39,31 @@ p {
 }
 .anchor {
   text-align: center;
+
   padding-bottom: 80px;
+}
+.page {
+  color: rgb(136, 67, 11);
+  text-decoration: underline;
+  text-decoration-color: rgb(60, 22, 163);
+  text-decoration-thickness: 4px;
+  animation: blink 500ms infinite;
+}
+
+@keyframes blink {
+  0% {
+    text-decoration-color: rgb(60, 22, 163);
+  }
+  25% {
+    text-decoration-color: rgb(27, 5, 223);
+  }
+  50% {
+    text-decoration-color: rgb(185, 54, 54);
+  }
+  75% {
+    text-decoration-color: rgb(116, 6, 6);
+  }
+  100% {
+    text-decoration-color: transparent;
+  }
 }
