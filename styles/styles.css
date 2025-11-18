@@ -1,8 +1,43 @@
 body {
   background-color: lightblue;
-  width: 80%;
   margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 h1 {
   text-align: center;
+  margin-bottom: 80px;
+}
+ul {
+  position: relative;
+  list-style: disc;
+  margin-bottom: 40px;
+}
+p {
+  font-weight: bold;
+}
+.btn__run {
+  text-align: right;
+  margin-right: 150px;
+}
+.task {
+  padding: 10px 30px;
+  background: linear-gradient(to right, rgb(218, 99, 99), rgb(79, 206, 100));
+  border-radius: 10px;
+  font-size: 24px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.last {
+  padding-bottom: 100px;
+}
+.star {
+  font-weight: bold;
+  color: rgb(194, 55, 55);
+}
+.anchor {
+  text-align: center;
+  padding-bottom: 80px;
 }
