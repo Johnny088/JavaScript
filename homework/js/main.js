@@ -70,3 +70,7 @@ function runTask3() {
   }
   console.log(`the sum of the range from ${start} to ${end} is ${result4}`);
 }
+
+function runTask4() {
+  alert('there can be your ads');
+}
