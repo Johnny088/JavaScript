@@ -45,3 +45,17 @@ p {
   width: 80%;
   margin: 0 auto;
 }
+.anchor {
+  display: inline-block;
+  text-align: center;
+  background-color: aqua;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.anchor_wrapper {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
