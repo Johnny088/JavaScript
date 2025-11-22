@@ -51,11 +51,41 @@ p {
   background-color: aqua;
   font-size: 40px;
   font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 10px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  animation: gradientBlink 300ms infinite;
 }
 .anchor_wrapper {
   margin-bottom: 100px;
   display: flex;
   justify-content: center;
+}
+@keyframes gradientBlink {
+  0% {
+    background: linear-gradient(
+      45deg,
+      rgb(23, 23, 141),
+      rgb(155, 39, 39),
+      rgb(57, 184, 57)
+    );
+  }
+  50% {
+    background: linear-gradient(
+      45deg,
+      rgb(155, 39, 39),
+      rgb(57, 184, 57),
+      rgb(23, 23, 141)
+    );
+  }
+  100% {
+    background: linear-gradient(
+      45deg,
+      rgb(57, 184, 57),
+      rgb(23, 23, 141),
+      rgb(155, 39, 39)
+    );
+  }
+}
+.anchor_link {
+  color: rgb(83, 201, 201);
 }
