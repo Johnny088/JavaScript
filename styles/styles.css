@@ -26,7 +26,15 @@ p {
   position: relative;
   margin-bottom: 140px;
 }
-.btn_run {
+.btn_wrap_task1 {
+  padding-top: 40px;
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn_run,
+.btn_run1 {
   position: absolute;
   right: 320px;
   padding: 10px 20px;
@@ -40,6 +48,9 @@ p {
     rgb(155, 39, 39),
     rgb(57, 184, 57)
   );
+}
+.btn_run1 {
+  position: static;
 }
 .container {
   width: 80%;
