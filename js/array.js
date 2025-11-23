@@ -50,9 +50,9 @@ function run_task6() {
 }
 function run_task7() {
   let count_same = 0;
-  for (let i = 0; i < array1.length; i++)
+  for (let i = 0; i < array1.length - 1; i++)
     for (let j = i + 1; j < array1.length; j++) {
-      if (i == j) {
+      if (array1[i] === array1[j]) {
         count_same++;
       }
     }
