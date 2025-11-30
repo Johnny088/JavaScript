@@ -1,0 +1,36 @@
+#crimea,
+#sevastopol,
+#kherson,
+#zaporizhyia,
+#donetsk,
+#luhansk,
+#uzhhorod,
+#ivano-Frankivsk,
+#chernitsi,
+#dnipro,
+#odesa,
+#mykolaiv,
+#kropyvnytskyi,
+#vinnitsia,
+#kyiv_region {
+  fill: deepskyblue;
+}
+
+#kharkiv,
+#sumy,
+#lutsk,
+#lviv,
+#ternopil,
+#khmelnitskyi,
+#rivne,
+#chernihiv,
+#poltava,
+#zhytomyr,
+#cherkasy,
+#kyiv {
+  fill: yellow;
+}
+
+#crimea:hover {
+  fill: aquamarine;
+}
