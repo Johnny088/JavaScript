@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="row container mx-auto mt-5">
-      <div class="card col-4 offset-3">
+      <div class="card col-4 offset-2 pt-3">
         <!-- form start -->
         <div class="input-group">
           <span class="input-group-text" id="basic-addon1">@</span>
@@ -32,15 +32,26 @@
         <!-- form end -->
         <img src="" id="avatar-img" class="card-img-top" alt="Avatar" />
         <div class="card-body">
-          <h5 class="card-title" id="user">Card title</h5>
-          <p class="card-text" id="region"></p>
+          <div class="row">
+            <p class="col-6">user name:</p>
+            <p class="card-title col-6" id="user">Card title</p>
+            <p class="col-6">Region</p>
+            <p class="card-text col-6" id="region"></p>
+          </div>
         </div>
         <div class="card-footer">
-          <small class="text-body-secondary">Last updated 3 mins ago</small>
+          <small class="text-body-secondary">There can be your ads</small>
         </div>
       </div>
-      <div col-4>
-        <p id="followers"></p>
+      <!-- next item -->
+
+      <div class="card col-4 pt-3">
+        <div class="row">
+          <p class="col-6">Folowers</p>
+          <p id="followers" class="col-6"></p>
+          <p class="col-6">Following</p>
+          <p class="col-6" id="following"></p>
+        </div>
       </div>
     </div>
     <script src="./main.js" defer></script>
