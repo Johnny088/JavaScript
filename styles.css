@@ -34,3 +34,6 @@
 #crimea:hover {
   fill: aquamarine;
 }
+svg {
+  cursor: pointer;
+}
