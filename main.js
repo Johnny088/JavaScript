@@ -28,17 +28,3 @@ function fetchAdvice() {
       }
     });
 }
-
-// fetch(url)
-//     .then(response => response.json())
-//     .then(data => {
-//         for (const char of data) {
-//             table.innerHTML += `<tr>
-//                         <th scope="row">${char.id}</th>
-//                         <td>${char.fullName}</td>
-//                         <td>${char.title}</td>
-//                         <td><img class="img-scale" height="50" src="${char.imageUrl}" alt="${char.fullName}"></td>
-//                     </tr>`;
-//         }
-//     })
-//     .catch(error => console.log(error));
