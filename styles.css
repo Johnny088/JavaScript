@@ -1,0 +1,87 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+}
+button {
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 155, 53, 1) 0%,
+    rgba(199, 87, 167, 1) 50%,
+    rgba(113, 187, 208, 1) 70%,
+    rgba(148, 30, 47, 1) 100%
+  );
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+}
+.nav_menu {
+  font-size: 30px;
+  color: rgb(77, 40, 40);
+}
+.box {
+  width: 400px;
+  background-color: bisque;
+  display: inline-block;
+  padding: 20px;
+}
+.text {
+  opacity: 1;
+}
+
+.ul4 {
+  background-color: rgb(36, 97, 97);
+
+  margin: 0;
+  padding: 0;
+}
+.btn4 {
+  background: rgb(36, 97, 97);
+  padding: 0 20px;
+  margin: 0;
+}
+.task4_info {
+  padding: 20px;
+  margin: 0;
+  width: 400px;
+  font-size: 24px;
+  background-color: burlywood;
+}
+.news__item__title {
+  align-items: end;
+}
+
+.task5 {
+  background-color: bisque;
+}
+.Light__item {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  background: rgb(83, 74, 74);
+}
+
+.lights {
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.task7 {
+  font-size: 24px;
+}
+.books__list {
+  background-color: rgb(240, 217, 186);
+}
