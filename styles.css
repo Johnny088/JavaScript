@@ -37,3 +37,96 @@ ul {
   text-align: center;
   font-size: 40px;
 }
+.img__container {
+  background-color: bisque;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  /* overflow: hidden; */
+}
+.svg__container {
+  position: relative;
+}
+.btn__forward {
+  background: none;
+  position: absolute;
+  fill: red;
+  stroke: orange;
+  cursor: pointer;
+}
+.btn__back {
+  top: -168px;
+  left: 504px;
+  fill: gray;
+  stroke: gray;
+  position: absolute;
+  background: none;
+  cursor: pointer;
+}
+.btn__forward {
+  top: -168px;
+  left: 754px;
+  cursor: pointer;
+}
+.colors li {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.colors li:nth-child(1) {
+  background-color: rgb(15, 21, 21);
+}
+.colors li:nth-child(2) {
+  background-color: rgb(29, 13, 146);
+}
+.colors li:nth-child(3) {
+  background-color: rgb(238, 111, 7);
+}
+.colors li:nth-child(4) {
+  background-color: rgb(212, 18, 135);
+}
+.colors li:nth-child(5) {
+  background-color: rgb(5, 93, 20);
+}
+.colors li:nth-child(6) {
+  background-color: rgb(208, 214, 93);
+}
+.colors li:nth-child(7) {
+  background-color: rgb(16, 5, 98);
+}
+.colors li:nth-child(8) {
+  background-color: rgb(244, 126, 9);
+}
+.colors li:nth-child(9) {
+  background-color: rgb(216, 214, 225);
+}
+.colors li:nth-child(10) {
+  background-color: rgb(16, 15, 22);
+}
+.colors li:nth-child(11) {
+  background-color: rgb(169, 21, 147);
+}
+.colors li:nth-child(12) {
+  background-color: rgb(10, 227, 223);
+}
+.colors li:nth-child(13) {
+  background-color: rgb(95, 8, 8);
+}
+.colors li:nth-child(14) {
+  background-color: rgb(183, 108, 108);
+}
+.colors li:nth-child(15) {
+  background-color: rgb(53, 64, 212);
+}
+.colors li:nth-child(16) {
+  background-color: rgb(18, 175, 207);
+}
+.colors li:nth-child(17) {
+  background-color: rgb(73, 94, 109);
+}
+.colors li:nth-child(18) {
+  background-color: rgb(154, 14, 197);
+}
+.colorTest {
+  font-size: 24px;
+}
