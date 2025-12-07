@@ -5,7 +5,7 @@
 #donetsk,
 #luhansk,
 #uzhhorod,
-#ivano-Frankivsk,
+#ivano_Frankivsk,
 #chernitsi,
 #dnipro,
 #odesa,
@@ -29,10 +29,6 @@
 #cherkasy,
 #kyiv {
   fill: yellow;
-}
-
-#crimea:hover {
-  fill: aquamarine;
 }
 svg {
   cursor: pointer;
